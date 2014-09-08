@@ -619,7 +619,7 @@ section * {
   right: 0;
 }
 .navbar .brand {
-  padding: 23px 28px 24px 0;
+  padding: 10px 10px 10px 0;
   float: left;
 }
 .navbar .subnav {
@@ -634,44 +634,6 @@ section * {
 .navbar .navbar-collapse {
   padding-left: 0;
   padding-right: 0;
-}
-.navbar .nav > li {
-  float: left;
-}
-.navbar .nav > li > a:hover,
-.navbar .nav > li > a:focus {
-  background: none;
-}
-.navbar .navbar-toggle {
-  margin: 26px 0 10px;
-  color: white;
-  background: none;
-  padding: 0;
-  width: 30px;
-  height: 30px;
-  background: url("../../startup/common-files/icons/menu-icon@2x.png") 50% no-repeat;
-  -webkit-background-size: 17px 12px;
-  -moz-background-size: 17px 12px;
-  -o-background-size: 17px 12px;
-  background-size: 17px 12px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
-.navbar .navbar-toggle:before {
-  display: none;
-}
-.navbar .navbar-form .btn {
-  height: auto;
-  line-height: 22px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.navbar .nav > li > a > [class*="fui-"] {
-  font-size: 24px;
-  margin: -10px 0 0;
-  position: relative;
-  top: 4px;
 }
 .navbar.navbar-fixed-top {
   -webkit-transform: translate3d(0, 0, 0);
@@ -757,6 +719,7 @@ body > .navbar-collapse .subnav {
  * Header 21 stylesheet
  * */
 .header-21 {
+  background-color: darkred;
   color: white;
   position: relative;
   padding-top: 0;
@@ -766,7 +729,6 @@ body > .navbar-collapse .subnav {
 }
 
 .header-21 .navbar .brand{
-  margin-top: 30px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 40px;
@@ -775,11 +737,12 @@ body > .navbar-collapse .subnav {
 
 .content-33 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .content-33 .lead {
   font-size: 19px;
+  margin: 0px;
   font-weight: normal;
   color: #7f8c8d;
   line-height: 44px;
@@ -790,16 +753,16 @@ body > .navbar-collapse .subnav {
  * Crew 2 stylesheet
  * */
 .crew-2 {
-  background-color: #000000;
+  background-color: rgb(54, 29, 202);
   padding-top: 50px;
-  padding-bottom: 88px;
+  padding-bottom: 20px;
 }
 .crew-2 h3 {
   color: white;
-  margin: 0 0 73px;
+  margin: 0 0 33px;
   font-size: 30px;
   text-align: left;
-  font-weight: 300;
+  font-weight: 400;
 }
 .crew-2 .members {
   display: table;
@@ -817,14 +780,14 @@ body > .navbar-collapse .subnav {
 .crew-2 .members .member {
   width: 265px;
   display: inline-block;
-  padding-bottom: 23px;
+  padding-bottom: 25px;
   -webkit-transition: border-color 0.4s;
   -moz-transition: border-color 0.4s;
   -o-transition: border-color 0.4s;
   transition: border-color 0.4s;
 }
 .crew-2 .members + .members .member {
-  padding-top: 78px;
+  padding-top: 38px;
   border-top: 2px solid #ebedee;
 }
 .crew-2 .members .photo-wrapper {
@@ -851,10 +814,10 @@ body > .navbar-collapse .subnav {
   -moz-border-radius: 6px;
   border-radius: 6px;
   overflow: hidden;
-  background: 50% 50% no-repeat;
+  background-size: 100%;
   opacity: 30;
   filter: alpha(opacity=3000);
-  opacity: 0.3;
+  opacity: 0.9;
   filter: alpha(opacity=30);
   -webkit-transition: opacity 0.4s;
   -moz-transition: opacity 0.4s;
@@ -891,7 +854,7 @@ body > .navbar-collapse .subnav {
 }
 .crew-2 .members .social-btns {
   white-space: nowrap;
-  margin-top: 24px;
+  margin-top: 14px;
 }
 .crew-2 .members .social-btns > * {
   display: inline-block;
@@ -1003,8 +966,8 @@ body > .navbar-collapse .subnav {
 }
 
 .price-3 {
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .price-3 .plans {
   *zoom: 1;
@@ -1053,20 +1016,26 @@ body > .navbar-collapse .subnav {
   margin-bottom: 0px;
 }
 .price-3 .plan .title .img {
-  min-height: 134px;
+  padding: 0px 20px;
+  margin: 0px 20px 20px 20px;
+  text-align: center;
+  font-size: 90px;
+  font-style: italic;
+  border: double;
 }
 .price-3 .plan .price {
   font-weight: 400;
 }
 .price-3 .plan .date {
   font-weight: thin;
-  color: red;
+  color: turquoise;
   font-size: 15px;
   margin:0px;
   }
 .price-3 .plan .description {
   margin: 30px 0 35px;
   line-height: 28px;
+  min-height: 168px;
 }
 .price-3 .plan .btn {
   min-width: 170px;
