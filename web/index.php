@@ -3,7 +3,7 @@
 require('../vendor/autoload.php');
 
 $app = new Silex\Application();
-$app['debug'] = true;
+$app['debug'] = false;
 
 // Register the monolog logging service
 $app->register(new Silex\Provider\MonologServiceProvider(), array(
@@ -14,7 +14,7 @@ $app->register(new Silex\Provider\MonologServiceProvider(), array(
 
 $app->get('/', function() use($app) {
   $app['monolog']->addDebug('logging output.');
-  include_once("home.html");
+  return include_once("home.html");
 });
 
 $app->run();
