@@ -768,6 +768,7 @@ body > .navbar-collapse .subnav {
 }
 .crew-2 .members .member-wrapper {
   display: table-cell;
+  vertical-align: top;
 }
 .crew-2 .members .member-wrapper:first-child + .member-wrapper {
   text-align: center;
@@ -790,7 +791,7 @@ body > .navbar-collapse .subnav {
 }
 .crew-2 .members .photo-wrapper {
   width: 265px;
-  height: 180px;
+  height: 265px;
   position: relative;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -1011,16 +1012,14 @@ body > .navbar-collapse .subnav {
   color: #2c3e50;
   font-size: 24px;
   font-weight: 500;
-  font-style: italic;
   margin-bottom: 0px;
 }
 .price-3 .plan .title .img {
-  padding: 0px 20px;
-  margin: 0px 20px 20px 20px;
+  margin: 0px 40px 20px 40px;
   text-align: center;
   font-size: 90px;
   font-family: monospace;
-  border: double;
+  border: solid 10px;
 }
 .price-3 .plan .price {
   font-weight: 400;
@@ -1029,12 +1028,13 @@ body > .navbar-collapse .subnav {
   font-weight: thin;
   color: turquoise;
   font-size: 15px;
+  line-height: 10px;
   margin:0px;
   }
 .price-3 .plan .description {
   margin: 30px 0 35px;
-  line-height: 28px;
-  min-height: 168px;
+  line-height: 22px;
+  min-height: 120px;
 }
 .price-3 .plan .btn {
   min-width: 170px;
