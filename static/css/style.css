@@ -744,8 +744,6 @@ body > .navbar-collapse .subnav {
   font-size: 19px;
   margin: 0px;
   font-weight: normal;
-  color: #7f8c8d;
-  line-height: 44px;
   color: #34495e;
   font-weight: 300;
 }
@@ -998,6 +996,7 @@ body > .navbar-collapse .subnav {
   box-sizing: border-box;
   float: left;
   width: 33.33%;
+  padding: 20px;
   text-align: center;
   font-size: 18px;
 }
@@ -1020,7 +1019,7 @@ body > .navbar-collapse .subnav {
   margin: 0px 20px 20px 20px;
   text-align: center;
   font-size: 90px;
-  font-style: italic;
+  font-family: monospace;
   border: double;
 }
 .price-3 .plan .price {
